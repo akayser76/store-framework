@@ -24,8 +24,7 @@
     "props": {
       "text": "### Your Coffee, Your Way \n #### New Coffee Makers Collection",
       "textPosition": "CENTER",
-      "textAlignment": "CENTER",
-      "font":"t-heading-level4"
+      "textAlignment": "CENTER"
     }
   },
 
