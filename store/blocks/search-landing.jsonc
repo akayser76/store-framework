@@ -1,22 +1,24 @@
 {
-  "store.custom#landing": { 
+  "store.custom#landing": {
     "blocks": [
-      "image#landingbanner", 
+      "image#landingbanner",
       "search-result-layout.customQuery"
     ]
   },
-  "image#landingbanner":{
-    "props":{
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-      "minWidth":"100%"
+  "image#landingbanner": {
+    "props": {
+      "minWidth": "100%",
+      "src": "https://hi-tech.ua/wp-content/uploads/2019/09/Google-logo.jpg"
     }
   },
-  "search-result-layout.customQuery":{
-    "props":{
-      "orderByField":"OrderByReleaseDateASC",
-      "hideUnavailableItems":true,
-      "maxItemsPerPage":"8",
-      "queryField":"Blue Top Retro Camera"
+  "search-result-layout.customQuery": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "Blue Top Retro Camera"
+      }
     }
   }
 }
